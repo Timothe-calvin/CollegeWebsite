@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+  }
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+  }
+
+ 
+  .Header{
+grid-column:1/4;
+grid-row: 1;
+height:15vh;
+text-align: center;
+border: 3px solid rgb(201, 78, 78);
+  }
+
+
+ .Main{
+grid-row-start: 2;
+grid-column-start: 1 ;
+width: 50vw;
+  }
+
+  .Choices{
+grid-row-start: 2;
+grid-column-start:2;
+width:25vw;
+  }
+
+.Quick-links{
+grid-row-start:2;
+grid-column-start:3;
+width:25vw;
+  }
+
+  .box{
+    width: 15vw;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    color:rgb(249, 3, 3);
+    border-color: red;
+    border: 5px;
+}
+.box1{
+text-align: center;
+border: 2px solid rgb(255, 3, 3);
+}
+.box2{
+    text-align: center;
+    border: 2px solid rgb(255, 3, 3);
+}
+.box3{
+    text-align: center;
+    border: 2px solid rgb(255, 3, 3);
+}
+.box4{
+    text-align: center;
+    border: 2px solid rgb(255, 3, 3);
+}
+.box5{
+    text-align: center;
+    border: 2px solid rgb(255, 3, 3);
+}
+.box6{
+    text-align: center;
+    border: 2px solid rgb(255, 3, 3);
+}
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
